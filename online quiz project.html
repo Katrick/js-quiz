@@ -1,0 +1,160 @@
+<html>
+<head>
+<style>
+body{
+    background-image:url("quiz.jpg");
+	}
+
+<title>javascript online quiz</title>
+
+</style>
+
+</head>
+<body>
+
+
+<h1>WELCOME TO ONLINE JAVASCRIPT ONLINE GAMING QUIZ</h1>
+<div id="online">
+<p> First question 
+1. What is largerst content in the world?
+<input type="text" id="ans"></input>
+</p> 
+<button id="hint"> HINT </button>
+<button id="enter"> Enter </button>
+</div>
+
+
+<div>
+<p> second question 
+2. What is capital of india?
+<input type="text" id="ans2"></input>
+</p> 
+
+<button id="hint2"> HINT </button>
+<button id="enter2"> Enter </button>
+</div>
+
+
+<div>
+<p> Third question :
+3. Dhandia is a popular dance of?
+<input type="text" id="ans3"></input>
+</p> 
+
+<button id="hint3">HINT </button>
+<button id="enter3">Enter </button>
+</div>
+
+<div>
+<p> fourth question:
+4:the rathyatra at puri is celebrated honour of which hindu deity?
+<input type="text" id="ans4"></input>
+</p> 
+
+<button id="hint4">HINT </button>
+<button id="enter4">enter</button>
+</div>
+
+<div>
+<p> fifth question 
+5. What is the holy book of parsis?
+<input type="text" id="ans5"></input>
+</p> 
+
+<button id="hint5"> HINT </button>
+<button id="enter5"> Enter </button>
+</div>
+
+<div>
+<p> last question 
+2. Kathakali is the folk dance of which state?
+<input type="text" id="ans6"></input>
+</p> 
+
+<button id="hint6"> HINT </button>
+<button id="enter6"> Enter </button>
+</div>
+
+<script type="text/javascript">
+var p=0;
+document.getElementById("hint").onclick=function()
+{ alert("Continent start with letter A");}
+document.getElementById("enter").onclick=function()
+{var answer;
+ var a=document.getElementById("ans").value;
+ answer="Asia";
+ if(a == answer)
+ { alert("Correct answer");}
+else {
+alert("wrong asnwer try again");} 
+}
+
+
+document.getElementById("hint2").onclick=function()
+{ alert("Qutab minar and lotus temple anre the main attraction here"); }
+document.getElementById("enter2").onclick=function()
+{var answer2;
+ var a2=document.getElementById("ans2").value;
+ answer2="Delhi";
+ if(a2 == answer2)
+ { alert("Correct answer");}
+else {
+alert("wrong asnwer try again");
+}
+}
+
+document.getElementById("hint3").onclick=function()
+{ alert("narendra modi is ex cheif minister of this state"); }
+document.getElementById("enter3").onclick=function()
+{var answer2;
+ var a3=document.getElementById("ans3").value;
+ answer3="Gujrat";
+ if(a3 == answer3)
+ { alert("Correct answer");}
+else {
+alert("wrong asnwer try again");
+}
+}
+document.getElementById("hint4").onclick=function()
+{ alert("It happens in orrisa"); }
+document.getElementById("enter4").onclick=function()
+{var answer4;
+ var a4=document.getElementById("ans4").value;
+ answer4="Jaganath";
+ if(a4 == answer4)
+ { alert("Correct answer");}
+else {
+alert("wrong asnwer try again");
+}
+}
+document.getElementById("hint5").onclick=function()
+{ alert("It start with word zend"); }
+document.getElementById("enter5").onclick=function()
+{var answer5;
+ var a5=document.getElementById("ans5").value;
+ answer5="Zend avesta";
+ if(a5 == answer5)
+ { alert("Correct answer");}
+else {
+alert("wrong asnwer try again");
+}
+}
+document.getElementById("hint6").onclick=function()
+{ alert("cochin beach lies in this state"); }
+document.getElementById("enter6").onclick=function()
+{var answer6;
+ var a6=document.getElementById("ans6").value;
+ answer6="Kerela";
+ if(a6 == answer6)
+ { alert("Correct answer");}
+else {
+alert("wrong asnwer try again");
+}
+}
+
+
+</script>
+
+</body>
+
+</html>
